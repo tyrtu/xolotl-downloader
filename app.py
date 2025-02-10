@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, send_file
 from pytube import YouTube
 import os
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 # Directory to store downloads
 DOWNLOAD_FOLDER = "downloads"
